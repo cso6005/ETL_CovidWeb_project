@@ -2,15 +2,15 @@
 
  <span style="color:gray">*__Project Summary__*</span>
 
-✔️ 프로젝트 명
+**✔️ 프로젝트 명**
 
 ETL을 적용한 covid-19 현황 안내 웹 애플리케이션
 
-✔️ 프로젝트 기간
+**✔️ 프로젝트 기간**
 
 2022.09.14 ~ 2022.09.16
 
-✔️ 프로젝트 형태
+**✔️ 프로젝트 형태**
 
 4인 팀 프로젝트
 
@@ -63,7 +63,25 @@ ETL을 적용한 covid-19 현황 안내 웹 애플리케이션
 ## 02. 프로젝트 수행 내용
 
 **✔️ 개발 및 기술 구현 결과**
+- **BACK**
+    - `Flask` 기반의 웹 애플리케이션 구현
+    - render_template 으로 `HTML 랜더링`
+    - 데이터 관리 DB `Mysql`
+    - `pymysql` 을 이용하여, db 연동 및 데이터 read
+    - Front 와 `JSON` 포맷 데이터 통신
 
+- **FRONT**
+    - `goole.chart`API 이용하여, GEO chart, BAR chart, Pie Chart, table 구현
+    - 서비스 기능에 적합한 `HTML`, `JavaScript` 코드 구현
+
+- **DATA pipline**
+    - `ETL` 파이프라인 적용
+    - Extract_df
+        - COVID-19 Data Repository open data 에서 데이터 get 후, csv 파일로 추출
+    - Transform
+        - `pandas` 를 이용하여 데이터 전처리
+    - Load
+        - `sqlalchemy`, `pymysql` 을 이용하여, db 연동 후 data insert
 
 
 **✔️ 홈페이지**
