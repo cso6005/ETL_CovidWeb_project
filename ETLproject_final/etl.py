@@ -66,7 +66,7 @@ def db_conn(dat):
 
     pymysql.install_as_MySQLdb()
 
-    engine = create_engine("mysql+pymysql://root:soyoung70*@127.0.0.1:3306/playdata")
+    engine = create_engine("mysql+pymysql://bigdata:bigdata*@127.0.0.1:3306/playdata")
 
     dat.to_sql(name = 'covid',
           con = engine,
