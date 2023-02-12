@@ -71,13 +71,13 @@ ETL을 적용한 covid-19 현황 안내 웹 애플리케이션
     - Front 와 `JSON` 포맷 데이터 통신
 
 - **FRONT**
-    - `goole.chart`API 이용하여, GEO chart, BAR chart, PIE chart, table 구현
+    - `goole.chart` API 이용하여, GEO chart, BAR chart, PIE chart, table 구현
     - 서비스 기능에 적합한 `HTML`, `JavaScript` 코드 구현
 
 - **DATA pipline**
     - `ETL` 파이프라인 적용
     - Extract_df
-        - COVID-19 Data Repository open data 에서 데이터 get 후, csv 파일로 추출
+        - COVID-19 Data Repository open data API 에서 데이터 get 후, csv 파일로 추출
     - Transform
         - `pandas` 를 이용하여 데이터 전처리
     - Load
