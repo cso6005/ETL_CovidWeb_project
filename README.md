@@ -71,7 +71,7 @@ ETL을 적용한 covid-19 현황 안내 웹 애플리케이션
     - Front 와 `JSON` 포맷 데이터 통신
 
 - **FRONT**
-    - `goole.chart`API 이용하여, GEO chart, BAR chart, Pie Chart, table 구현
+    - `goole.chart`API 이용하여, GEO chart, BAR chart, PIE chart, table 구현
     - 서비스 기능에 적합한 `HTML`, `JavaScript` 코드 구현
 
 - **DATA pipline**
